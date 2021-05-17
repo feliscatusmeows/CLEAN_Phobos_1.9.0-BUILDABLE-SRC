@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class CommandManager
         extends Feature {
     private String clientMessage = "<Phobos.eu>";
-    private String prefix = ".";
+    private String prefix = "'";//. conflicts with inertia why is this hardcoded wtf
     private final ArrayList<Command> commands = new ArrayList();
 
     public CommandManager() {
